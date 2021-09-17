@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+   
+  body{
+    background-image: url(https://res.cloudinary.com/ddpj4ipjb/image/upload/v1631802432/samples/coffee-2511065_cmxq5o.jpg);
+    background-size: cover;
+  }
+   
+  .container{
+    width: 50%;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .login-container{
+    display: flex;
+    width: 650px;
+    height: auto;
+    background: #fff;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+  }
+  .login-containerr{
+    display: flex;
+    width: 400px;
+    height: auto;
+    background: #fff;
+    justify-content: center;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
+  }
+   
+  .register{
+    padding: 40px;
+    position: relative;
+  }
+   
+  .registro input{
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    margin-bottom: 25px;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom: 1px solid #a8a8a8;
+    color: #333;
+  }
+   
+  .register .submit{
+    width: auto;
+    padding: 5px;
+    background: #332c8b;
+    color: #fff;
+    font-size: 12px;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, .2);
+    cursor: pointer;
+  }
