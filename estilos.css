@@ -15,30 +15,22 @@
     height: 100vh;
     padding: 10px;
     display: flex;
-    
     justify-content: center;
     align-items: center;
-  }
-  .containerimagen{
-    background-image: url(/Variante_B/Captura.JPG);
   }
    
   .login-container{
     display: flex;
     width: 650px;
     height: auto;
-    
-    background-image: radial-gradient(circle at 50% 118.03%, #a7ffdf 0, #8cfedb 16.67%, #66efd3 33.33%, #17dbc7 50%, #00c7bd 66.67%, #00b8b9 83.33%, #00adb9 100%);
-    /*background: rgb(119, 139, 206);*/
+    background: #fff;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
   }
   .login-containerr{
     display: flex;
     width: 400px;
     height: auto;
-    background-image: radial-gradient(circle at 50% 118.03%, #a7ffdf 0, #8cfedb 16.67%, #66efd3 33.33%, #17dbc7 50%, #00c7bd 66.67%, #00b8b9 83.33%, #00adb9 100%);
-
-    /*background: rgb(88, 100, 167);*/
+    background: #fff;
     justify-content: center;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .2);
   }
